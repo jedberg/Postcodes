@@ -1,0 +1,15 @@
+This module will find the distance between two North American postcodes.
+
+Included is a sqlite database with all of the postcodes and their
+lat and long.
+
+Postcode files come from here: http://geocoder.ca/?freedata=1
+
+Table schema for the sqlite table:
+
+CREATE TABLE postcodes (
+  postcode TEXT NOT NULL,
+  st TEXT NOT NULL,
+  lat REAL NOT NULL,
+  lon REAL NOT NULL,
+);
