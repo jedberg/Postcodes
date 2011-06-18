@@ -14,4 +14,4 @@ CREATE TABLE postcodes (
   lon REAL NOT NULL,
 );
 
-CRAETE INDEX postcode_idx ON postcodes (postcode);
+CREATE INDEX postcode_idx ON postcodes (postcode);
